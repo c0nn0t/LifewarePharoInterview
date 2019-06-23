@@ -1,0 +1,1 @@
+numDays := 2.2 @ 1.array := {Date today . Date today + numDays days - 1 day}.array2 := {Date today - 1 day . Date today + numDays days - 1 day}.coll := SortedCollection new.coll add: array.coll add: array2.coll.Point browse.
